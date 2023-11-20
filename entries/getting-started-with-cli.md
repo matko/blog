@@ -18,6 +18,9 @@ This configuration file will be stored at /home/matthijs/.tdb.yml.
 Configuration has been written to /home/matthijs/.tdb.yml. You are all set!
 ```
 
+# immediately change password
+`tdb-cli user set-password`
+
 # create a database
 `tdb-cli db create family`
 
