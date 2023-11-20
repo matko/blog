@@ -41,7 +41,7 @@ add the following:
 
 Then
 
-`tdb-cli doc insert family -g schema < schema.json`
+`tdb-cli doc insert family -f -g schema < schema.json`
 
 # add some basic data directly on cli
 ```
@@ -68,7 +68,7 @@ change the definition of person to the following
 
 Then
 
-`tdb-cli doc insert family -g schema < schema.json`
+`tdb-cli doc insert family -f -g schema < schema.json`
 
 # Change some data
 ```
